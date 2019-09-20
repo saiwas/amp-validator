@@ -4,12 +4,15 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js"
   },
   "author": "Johnny",
   "license": "ISC",
   "dependencies": {
     "amphtml-validator": "^1.0.23",
-    "axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "csv-parser": "^2.3.0",
+    "csv-writer": "^1.5.0",
+    "lodash": "^4.17.15"
   }
 }

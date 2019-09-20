@@ -9,3 +9,4 @@ package-lock.json
 analyze
 *.log
 /coverage/
+*.csv

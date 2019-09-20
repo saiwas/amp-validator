@@ -13,7 +13,9 @@ module.exports = async (htmlString) => {
       msg += ' (see ' + error.specUrl + ')';
     }
     outPutMsg.push({
-        `${error.severity}`: msg
+        errorType: `${error.severity}`,
+        position: `${error.line}-${error.col}`,
+        msg
     })
   }
 
