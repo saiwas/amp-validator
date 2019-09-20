@@ -1,0 +1,11 @@
+logs
+.env
+*.next/
+/node_modules/
+/.idea/
+*DS_Store
+yarn.lock
+package-lock.json
+analyze
+*.log
+/coverage/
